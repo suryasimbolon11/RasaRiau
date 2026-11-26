@@ -11,7 +11,7 @@ html{scroll-padding-top:5rem}
 .rv.in{opacity:1;transform:none}
 .wipe{clip-path:inset(0 100% 0 0);transition:clip-path 1.1s cubic-bezier(.7,0,.2,1)}
 .wipe.in{clip-path:inset(0 0 0 0)}
-.dropcap::first-letter{font-family:'Fraunces',Georgia,serif;font-weight:900;color:#FF5B00;float:left;font-size:5.4rem;line-height:.78;padding:6px 10px 0 0}
+.dropcap::first-letter{font-family:'Fraunces',Georgia,serif;font-weight:900;color:#C48A00;float:left;font-size:5.4rem;line-height:.78;padding:6px 10px 0 0}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .title i{animation:none;transform:none}
