@@ -11,20 +11,20 @@
 <script src="js/tailwind-config.js"></script>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-black text-white font-body text-xl leading-[1.75] tracking-[.01em] antialiased overflow-x-hidden">
+<body class="bg-leaf text-cream font-body text-xl leading-[1.75] tracking-[.01em] antialiased overflow-x-hidden">
 
-<div id="bar" class="fixed left-0 top-0 z-30 h-1 w-full origin-left scale-x-0 bg-fire"></div>
+<div id="bar" class="fixed left-0 top-0 z-30 h-1 w-full origin-left scale-x-0 bg-gold"></div>
 
 <!-- HEADER / NAVBAR -->
-<header class="sticky top-0 z-20 border-b border-neutral-700 bg-black px-5 md:px-12 lg:px-[72px]">
+<header class="sticky top-0 z-20 border-b border-cream/20 bg-leaf px-5 md:px-12 lg:px-[72px]">
   <div class="flex h-[72px] items-center justify-between gap-6">
-    <a href="#home" class="font-display text-2xl font-black tracking-tight text-fire no-underline sm:text-3xl">RasaRiau</a>
+    <a href="#home" class="font-display text-2xl font-black tracking-tight text-gold no-underline sm:text-3xl">RasaRiau</a>
     <nav aria-label="Navigasi utama">
       <ul class="flex gap-4 md:gap-9">
-        <li><a href="#home" class="border-b-2 border-transparent py-1 font-display italic transition hover:border-fire">Home</a></li>
-        <li><a href="#about" class="border-b-2 border-transparent py-1 font-display italic transition hover:border-fire">About</a></li>
-        <li><a href="#products" class="border-b-2 border-transparent py-1 font-display italic transition hover:border-fire">Products</a></li>
-        <li><a href="#contact" class="hidden border-b-2 border-transparent py-1 font-display italic transition hover:border-fire sm:inline">Contact</a></li>
+        <li><a href="#home" class="border-b-2 border-transparent py-1 font-display italic transition hover:border-gold">Home</a></li>
+        <li><a href="#about" class="border-b-2 border-transparent py-1 font-display italic transition hover:border-gold">About</a></li>
+        <li><a href="#products" class="border-b-2 border-transparent py-1 font-display italic transition hover:border-gold">Products</a></li>
+        <li><a href="#contact" class="hidden border-b-2 border-transparent py-1 font-display italic transition hover:border-gold sm:inline">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -33,33 +33,33 @@
 <main id="home">
   <!-- HERO SECTION -->
   <div class="px-5 pt-10 md:px-12 md:pt-20 lg:px-[72px]">
-    <div class="flex flex-wrap justify-between gap-4 border-t-[3px] border-fire pt-3 font-display text-base italic text-neutral-300">
+    <div class="flex flex-wrap justify-between gap-4 border-t-[3px] border-gold pt-3 font-display text-base italic text-cream/80">
       <span>Edisi Oleh-oleh Khas Riau</span><span>Dibuat di Pekanbaru</span><span>Camilan tradisional Melayu</span>
     </div>
-    <h1 class="title -ml-[.04em] mt-8 font-display font-black leading-[.9] tracking-[-.02em] text-fire text-[clamp(4.2rem,20vw,19rem)]" aria-label="RasaRiau">
+    <h1 class="title -ml-[.04em] mt-8 font-display font-black leading-[.9] tracking-[-.02em] text-gold text-[clamp(4.2rem,20vw,19rem)]" aria-label="RasaRiau">
       <span class="block overflow-hidden pb-[.08em]"><i>RasaRiau</i></span>
     </h1>
     <div class="grid items-end gap-8 pb-12 pt-8 md:grid-cols-[1.2fr_1fr] md:gap-16 md:pb-24">
       <p id="tag" class="wipe font-display text-3xl font-normal italic leading-tight tracking-normal md:text-5xl">Gurih, manis, dan wangi sagu dari Tanah Melayu.</p>
       <div class="rv">
-        <p class="max-w-[34ch] text-neutral-200">Camilan khas Riau yang dibuat dengan resep turun-temurun, siap menemani perjalanan pulang Anda.</p>
-        <a href="#products" class="mt-5 inline-block bg-fire px-6 py-3.5 font-display font-extrabold text-black no-underline transition hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[5px_5px_0_#fff]">Lihat produk kami</a>
+        <p class="max-w-[34ch] text-cream/90">Camilan khas Riau yang dibuat dengan resep turun-temurun, siap menemani perjalanan pulang Anda.</p>
+        <a href="#products" class="mt-5 inline-block bg-gold px-6 py-3.5 font-display font-extrabold text-leaf no-underline transition hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[5px_5px_0_#FFF8E7]">Lihat produk kami</a>
       </div>
     </div>
   </div>
 
   <!-- Strip teks bergerak saat scroll -->
-  <div class="overflow-hidden whitespace-nowrap border-y-[3px] border-black bg-fire py-3.5 text-black" aria-hidden="true">
+  <div class="overflow-hidden whitespace-nowrap border-y-[3px] border-leaf bg-gold py-3.5 text-leaf" aria-hidden="true">
     <div id="mq" class="inline-block font-display text-3xl font-extrabold italic will-change-transform">Bolu Kemojo &nbsp;✦&nbsp; Lempuk Durian &nbsp;✦&nbsp; Keripik Sagu &nbsp;✦&nbsp; Kue Bangkit &nbsp;✦&nbsp; Bolu Kemojo &nbsp;✦&nbsp; Lempuk Durian &nbsp;✦&nbsp; Keripik Sagu &nbsp;✦&nbsp; Kue Bangkit &nbsp;✦&nbsp; Bolu Kemojo &nbsp;✦&nbsp; Lempuk Durian &nbsp;✦&nbsp; Keripik Sagu &nbsp;✦&nbsp; Kue Bangkit</div>
   </div>
 
   <!-- ABOUT US -->
-  <section id="about" class="bg-white px-5 py-16 text-black md:px-12 md:py-28 lg:px-[72px]">
-    <div class="rv mb-10 border-t-[3px] border-black pt-3 font-display text-base italic">Tentang kami</div>
+  <section id="about" class="bg-cream px-5 py-16 text-leaf md:px-12 md:py-28 lg:px-[72px]">
+    <div class="rv mb-10 border-t-[3px] border-leaf pt-3 font-display text-base italic">Tentang kami</div>
     <div class="grid gap-10 md:grid-cols-[1fr_1.1fr] md:gap-24">
       <div>
         <h2 class="rv font-display text-5xl font-black leading-[1.08] tracking-tight md:text-7xl">Dari dapur Riau untuk meja Anda.</h2>
-        <blockquote class="rv mt-9 max-w-[28ch] border-l-8 border-fire pl-5 font-display text-2xl font-bold italic leading-tight md:text-3xl">Oleh-oleh yang baik adalah rasa yang membuat orang ingin kembali.</blockquote>
+        <blockquote class="rv mt-9 max-w-[28ch] border-l-8 border-gold pl-5 font-display text-2xl font-bold italic leading-tight md:text-3xl">Oleh-oleh yang baik adalah rasa yang membuat orang ingin kembali.</blockquote>
       </div>
       <div class="rv space-y-4 text-justify [--d:.15s] md:columns-2 md:gap-9 md:space-y-0 [&>p+p]:md:mt-4" style="hyphens:auto">
         <p class="dropcap">RasaRiau adalah usaha camilan lokal yang berangkat dari satu keyakinan sederhana: kuliner Riau layak dikenal lebih luas. Kami mengolah bahan pilihan menjadi camilan yang rasanya masih sama seperti yang dibuat di dapur rumah.</p>
@@ -69,13 +69,13 @@
   </section>
 
   <!-- PRODUCT SHOWCASE -->
-  <section id="products" class="bg-fire px-5 py-16 text-black md:px-12 md:py-28 lg:px-[72px]">
-    <div class="rv mb-10 border-t-[3px] border-black pt-3 font-display text-base italic">Produk unggulan</div>
+  <section id="products" class="bg-gold px-5 py-16 text-leaf md:px-12 md:py-28 lg:px-[72px]">
+    <div class="rv mb-10 border-t-[3px] border-leaf pt-3 font-display text-base italic">Produk unggulan</div>
     <h2 class="rv font-display text-5xl font-black leading-[1.08] tracking-tight md:text-7xl">Empat rasa yang paling dicari.</h2>
     <div class="mt-12 grid gap-6 md:grid-cols-2 md:gap-8">
-      <article class="rv group flex flex-col border-[3px] border-black p-4 transition-colors duration-300 hover:bg-black hover:text-fire md:p-5" style="--d:0.0s">
-        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-black bg-black">
-          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-fire">B</div>
+      <article class="rv group flex flex-col border-[3px] border-leaf p-4 transition-colors duration-300 hover:bg-leaf hover:text-gold md:p-5" style="--d:0.0s">
+        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-leaf bg-leaf">
+          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-gold">B</div>
           <img src="images/bolu-kemojo.jpg" alt="Foto Bolu Kemojo" loading="lazy" class="absolute inset-0 h-full w-full object-cover" onerror="this.remove()">
         </div>
         <h3 class="mt-5 font-display text-4xl font-black leading-[1.1] tracking-normal md:text-5xl">Bolu Kemojo</h3>
@@ -87,9 +87,9 @@
           <div class="flex justify-between gap-4 border-t-2 border-current py-2"><dt class="font-display font-bold italic">Harga</dt><dd class="text-right">Rp 35.000</dd></div>
         </dl>
       </article>
-      <article class="rv group flex flex-col border-[3px] border-black p-4 transition-colors duration-300 hover:bg-black hover:text-fire md:p-5" style="--d:0.12s">
-        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-black bg-black">
-          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-fire">L</div>
+      <article class="rv group flex flex-col border-[3px] border-leaf p-4 transition-colors duration-300 hover:bg-leaf hover:text-gold md:p-5" style="--d:0.12s">
+        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-leaf bg-leaf">
+          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-gold">L</div>
           <img src="images/lempuk-durian.jpg" alt="Foto Lempuk Durian" loading="lazy" class="absolute inset-0 h-full w-full object-cover" onerror="this.remove()">
         </div>
         <h3 class="mt-5 font-display text-4xl font-black leading-[1.1] tracking-normal md:text-5xl">Lempuk Durian</h3>
@@ -101,9 +101,9 @@
           <div class="flex justify-between gap-4 border-t-2 border-current py-2"><dt class="font-display font-bold italic">Harga</dt><dd class="text-right">Mulai Rp 30.000</dd></div>
         </dl>
       </article>
-      <article class="rv group flex flex-col border-[3px] border-black p-4 transition-colors duration-300 hover:bg-black hover:text-fire md:p-5" style="--d:0.0s">
-        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-black bg-black">
-          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-fire">K</div>
+      <article class="rv group flex flex-col border-[3px] border-leaf p-4 transition-colors duration-300 hover:bg-leaf hover:text-gold md:p-5" style="--d:0.0s">
+        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-leaf bg-leaf">
+          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-gold">K</div>
           <img src="images/keripik-sagu.jpg" alt="Foto Keripik Sagu" loading="lazy" class="absolute inset-0 h-full w-full object-cover" onerror="this.remove()">
         </div>
         <h3 class="mt-5 font-display text-4xl font-black leading-[1.1] tracking-normal md:text-5xl">Keripik Sagu</h3>
@@ -115,9 +115,9 @@
           <div class="flex justify-between gap-4 border-t-2 border-current py-2"><dt class="font-display font-bold italic">Harga</dt><dd class="text-right">Rp 25.000</dd></div>
         </dl>
       </article>
-      <article class="rv group flex flex-col border-[3px] border-black p-4 transition-colors duration-300 hover:bg-black hover:text-fire md:p-5" style="--d:0.12s">
-        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-black bg-black">
-          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-fire">K</div>
+      <article class="rv group flex flex-col border-[3px] border-leaf p-4 transition-colors duration-300 hover:bg-leaf hover:text-gold md:p-5" style="--d:0.12s">
+        <div class="relative aspect-[4/3] overflow-hidden border-[3px] border-leaf bg-leaf">
+          <div class="absolute inset-0 grid place-items-center font-display text-9xl font-black text-gold">K</div>
           <img src="images/kue-bangkit.jpg" alt="Foto Kue Bangkit" loading="lazy" class="absolute inset-0 h-full w-full object-cover" onerror="this.remove()">
         </div>
         <h3 class="mt-5 font-display text-4xl font-black leading-[1.1] tracking-normal md:text-5xl">Kue Bangkit</h3>
@@ -135,41 +135,41 @@
 
   <!-- KEUNGGULAN PRODUK -->
   <section id="why" class="px-5 py-16 md:px-12 md:py-28 lg:px-[72px]">
-    <div class="rv mb-10 border-t-[3px] border-fire pt-3 font-display text-base italic text-fire">Keunggulan produk</div>
+    <div class="rv mb-10 border-t-[3px] border-gold pt-3 font-display text-base italic text-gold">Keunggulan produk</div>
     <h2 class="rv font-display text-5xl font-black leading-[1.08] tracking-tight md:text-7xl">Kami menjaga tiga hal.</h2>
-    <div class="mt-12 grid border-t-[3px] border-fire md:grid-cols-3">
+    <div class="mt-12 grid border-t-[3px] border-gold md:grid-cols-3">
       <article class="rv py-8 md:pr-9">
-        <h3 class="mb-3 font-display text-4xl font-black leading-[1.1] tracking-normal text-fire md:text-5xl">100% Autentik</h3>
-        <p class="text-neutral-200">Resep khas Riau yang dijaga apa adanya, tanpa mengubah rasa aslinya.</p>
+        <h3 class="mb-3 font-display text-4xl font-black leading-[1.1] tracking-normal text-gold md:text-5xl">100% Autentik</h3>
+        <p class="text-cream/90">Resep khas Riau yang dijaga apa adanya, tanpa mengubah rasa aslinya.</p>
       </article>
-      <article class="rv border-t border-neutral-600 py-8 [--d:.12s] md:border-l md:border-t-0 md:px-9">
-        <h3 class="mb-3 font-display text-4xl font-black leading-[1.1] tracking-normal text-fire md:text-5xl">Higienis</h3>
-        <p class="text-neutral-200">Dibuat di dapur yang bersih dan dikemas rapat agar tetap segar sampai di tangan Anda.</p>
+      <article class="rv border-t border-cream/30 py-8 [--d:.12s] md:border-l md:border-t-0 md:px-9">
+        <h3 class="mb-3 font-display text-4xl font-black leading-[1.1] tracking-normal text-gold md:text-5xl">Higienis</h3>
+        <p class="text-cream/90">Dibuat di dapur yang bersih dan dikemas rapat agar tetap segar sampai di tangan Anda.</p>
       </article>
-      <article class="rv border-t border-neutral-600 py-8 [--d:.24s] md:border-l md:border-t-0 md:pl-9">
-        <h3 class="mb-3 font-display text-4xl font-black leading-[1.1] tracking-normal text-fire md:text-5xl">Tanpa Bahan Pengawet</h3>
-        <p class="text-neutral-200">Hanya bahan alami, jadi sebaiknya dinikmati sebelum tanggal kedaluwarsa pada kemasan.</p>
+      <article class="rv border-t border-cream/30 py-8 [--d:.24s] md:border-l md:border-t-0 md:pl-9">
+        <h3 class="mb-3 font-display text-4xl font-black leading-[1.1] tracking-normal text-gold md:text-5xl">Tanpa Bahan Pengawet</h3>
+        <p class="text-cream/90">Hanya bahan alami, jadi sebaiknya dinikmati sebelum tanggal kedaluwarsa pada kemasan.</p>
       </article>
     </div>
   </section>
 </main>
 
 <!-- FOOTER -->
-<footer id="contact" class="bg-fire px-5 pb-8 pt-16 text-black md:px-12 md:pt-28 lg:px-[72px]">
+<footer id="contact" class="bg-gold px-5 pb-8 pt-16 text-leaf md:px-12 md:pt-28 lg:px-[72px]">
   <div class="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr] md:gap-16">
     <div class="rv">
       <div class="font-display text-5xl font-black leading-[1.08] tracking-tight md:text-7xl">Pesan oleh-oleh Anda hari ini.</div>
-      <a href="https://wa.me/6285373821812" target="_blank" rel="noopener" class="mt-5 inline-block bg-black px-6 py-3.5 font-display font-extrabold text-fire no-underline transition hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[5px_5px_0_#fff]">Pesan lewat WhatsApp</a>
+      <a href="https://wa.me/6285373821812" target="_blank" rel="noopener" class="mt-5 inline-block bg-leaf px-6 py-3.5 font-display font-extrabold text-gold no-underline transition hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[5px_5px_0_#FFF8E7]">Pesan lewat WhatsApp</a>
     </div>
     <div class="rv [--d:.12s]">
-      <h4 class="mb-3 border-b-[3px] border-black pb-1.5 font-display text-lg font-bold italic">Kontak pemesanan</h4>
+      <h4 class="mb-3 border-b-[3px] border-leaf pb-1.5 font-display text-lg font-bold italic">Kontak pemesanan</h4>
       <ul class="space-y-1.5">
         <li>WhatsApp: +62 85373821812</li>
         <li>Alamat: Jl. Ahmad Yani No. 42a, Pekanbaru, Riau</li>
       </ul>
     </div>
     <div class="rv [--d:.24s]">
-      <h4 class="mb-3 border-b-[3px] border-black pb-1.5 font-display text-lg font-bold italic">Media sosial</h4>
+      <h4 class="mb-3 border-b-[3px] border-leaf pb-1.5 font-display text-lg font-bold italic">Media sosial</h4>
       <ul class="space-y-1.5 underline underline-offset-4">
         <li><a href="#">Instagram @rasariau</a></li>
         <li><a href="#">TikTok @rasariau</a></li>
@@ -177,7 +177,7 @@
       </ul>
     </div>
   </div>
-  <div class="mt-16 flex flex-wrap justify-between gap-3 border-t-[3px] border-black pt-4 text-base">
+  <div class="mt-16 flex flex-wrap justify-between gap-3 border-t-[3px] border-leaf pt-4 text-base">
     <span>© 2026 RasaRiau. Hak cipta dilindungi.</span><span>Dibuat dengan cinta di Riau.</span>
   </div>
 </footer>
